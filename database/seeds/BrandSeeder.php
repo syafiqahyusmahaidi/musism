@@ -1,0 +1,148 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use App\Brand;
+
+class BrandSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $user = [
+            [
+                'id'=>'1',
+               'bname'=>'Ludwig',
+              
+            ],
+            [
+                'id'=>'2',
+               'bname'=>'Pearl',
+            ],
+            [
+                'id'=>'3',
+               'bname'=>'Tama',
+            ],
+            [
+                'id'=>'4',
+               'bname'=>'Gretsch',
+            ],
+            [
+                'id'=>'5',
+               'bname'=>'Amolly',
+            ],
+            [
+                'id'=>'6',
+               'bname'=>'Epiphone',
+            ],
+            [
+                'id'=>'7',
+               'bname'=>'Fender',
+            ],
+            [
+                'id'=>'8',
+               'bname'=>'Ibanez',
+            ],
+            [
+                'id'=>'9',
+               'bname'=>'Taylor',
+            ],
+            [
+                'id'=>'10',
+               'bname'=>'Roland',
+            ],
+            [
+                'id'=>'11',
+               'bname'=>'Kawai',
+            ],
+            [
+                'id'=>'12',
+               'bname'=>'FlyKeys',
+            ],
+            [
+                'id'=>'13',
+               'bname'=>'Alesis',
+            ],
+            [
+                'id'=>'14',
+               'bname'=>'Stagg',
+            ],
+            [
+                'id'=>'15',
+               'bname'=>'Yamaha',
+            ],
+            [
+                'id'=>'16',
+               'bname'=>'Cordoba',
+            ],
+            [
+                'id'=>'17',
+               'bname'=>'Enya',
+            ],
+            [
+                'id'=>'18',
+               'bname'=>'Kaka',
+            ],
+            [
+                'id'=>'19',
+               'bname'=>'Cort',
+            ],
+            [
+                'id'=>'20',
+               'bname'=>'Cate',
+            ],
+            [
+                'id'=>'21',
+               'bname'=>'Caesar',
+            ],
+            [
+                'id'=>'22',
+               'bname'=>'Eko',
+            ],
+            [
+                'id'=>'23',
+               'bname'=>'Sigma',
+            ],
+            [
+                'id'=>'24',
+               'bname'=>'KM',
+            ],
+            [
+                'id'=>'25',
+               'bname'=>'Guild',
+            ],
+            [
+                'id'=>'26',
+               'bname'=>'Behringer',
+            ],
+            [
+                'id'=>'27',
+               'bname'=>'Novation',
+            ],
+            [
+                'id'=>'28',
+               'bname'=>'Casio',
+            ],
+            [
+                'id'=>'29',
+               'bname'=>'Nord',
+            ],
+            [
+                'id'=>'30',
+               'bname'=>'Arturia',
+            ],
+            [
+                'id'=>'31',
+               'bname'=>'Kala',
+            ],
+           
+        ];
+  
+        foreach ($user as $key => $value) {
+            Brand::create($value);
+        }
+    }
+}
